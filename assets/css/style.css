@@ -7,6 +7,9 @@ body {
 	font-family: Helvetica, sans-serif;
 	line-height: 1.4em;
 }
+h1, h4 {
+    font-weight: bold;
+}
 .flex-container {
 	display: flex;
 	justify-content: left;
@@ -24,4 +27,28 @@ header img {
 	height: 1.5em;
 	padding-left: 10px;
 	padding-right: 15px;
+}
+.main {
+	position: relative;
+	top: 48px;
+}
+#cta {
+	background-image: url("../images/moto.jpeg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+}
+.cta-content {
+	background-color: black;
+    color: white;
+    width: 20em;
+    padding: 2em 3em;
+    position: relative;
+    top: 9em;
+}
+	.cta-content h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0.25em 0;
 }
