@@ -1,0 +1,11 @@
+body {
+	color: white;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+header {
+	background-color: black;
+}
