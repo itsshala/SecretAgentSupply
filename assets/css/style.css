@@ -1,11 +1,27 @@
+html {
+  font-size: 18px;
+  background-color: white;
+}
 body {
 	color: white;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
 }
 .flex-container {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	flex-wrap: wrap;
 }
 header {
+	position: fixed;
+	width: 100%;
+	min-height: 48px;
+	align-items: center;
 	background-color: black;
+	z-index: 5;
+}
+header img {
+	height: 1.5em;
+	padding-left: 10px;
+	padding-right: 15px;
 }
